@@ -1,4 +1,4 @@
-From 90e915aa7332057792f16f5fd42f05d6904f95a7 Mon Sep 17 00:00:00 2001
+From 86934dd7fa9c2bcf760c17c92f967ebf24d66a83 Mon Sep 17 00:00:00 2001
 From: Tim Clephas <tim.clephas@nobleo.nl>
 Date: Mon, 10 Jan 2022 08:43:34 +0100
 Subject: [PATCH] Added install rule for package.xml

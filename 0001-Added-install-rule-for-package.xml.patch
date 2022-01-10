@@ -1,0 +1,23 @@
+From 90e915aa7332057792f16f5fd42f05d6904f95a7 Mon Sep 17 00:00:00 2001
+From: Tim Clephas <tim.clephas@nobleo.nl>
+Date: Mon, 10 Jan 2022 08:43:34 +0100
+Subject: [PATCH] Added install rule for package.xml
+
+---
+ CMakeLists.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 64f6acc..045378c 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -204,3 +204,6 @@ if(rclcpp_FOUND AND ${COMPILE_METHOD} STREQUAL "COLCON")
+   )
+   ament_package()
+ endif(rclcpp_FOUND AND ${COMPILE_METHOD} STREQUAL "COLCON")
++
++# Install package.xml
++install(FILES package.xml DESTINATION share/foo)
+-- 
+2.25.1
+

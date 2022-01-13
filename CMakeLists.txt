@@ -206,4 +206,4 @@ if(rclcpp_FOUND AND ${COMPILE_METHOD} STREQUAL "COLCON")
 endif(rclcpp_FOUND AND ${COMPILE_METHOD} STREQUAL "COLCON")
 
 # Install package.xml
-install(FILES package.xml DESTINATION share/rslidar_sdk)
+install(FILES package.xml DESTINATION share/foo)

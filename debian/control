@@ -1,0 +1,12 @@
+Source: ros-melodic-rslidar-sdk
+Section: misc
+Priority: optional
+Maintainer: robosense <zdxiao@robosense.cn>
+Build-Depends: debhelper (>= 9.0.0), libpcap0.8-dev, libpcl-dev, libyaml-cpp-dev, ros-melodic-catkin, ros-melodic-pcl-conversions, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rslidar-sdk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcap0.8-dev, libpcl-dev, libyaml-cpp-dev, ros-melodic-pcl-conversions, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Description: The rslidar_sdk package

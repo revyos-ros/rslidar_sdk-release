@@ -1,0 +1,23 @@
+From 05c31413d59fc588d00fd27167ee23c1ff6f3471 Mon Sep 17 00:00:00 2001
+From: Tim Clephas <tim.clephas@nobleo.nl>
+Date: Tue, 25 Jan 2022 06:31:15 +0100
+Subject: [PATCH] Install package.xml
+
+---
+ CMakeLists.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 64f6acc..55b6393 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -204,3 +204,6 @@ if(rclcpp_FOUND AND ${COMPILE_METHOD} STREQUAL "COLCON")
+   )
+   ament_package()
+ endif(rclcpp_FOUND AND ${COMPILE_METHOD} STREQUAL "COLCON")
++
++# Install package.xml
++install(FILES package.xml DESTINATION share/rslidar_sdk)
+-- 
+2.25.1
+

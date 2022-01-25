@@ -1,0 +1,12 @@
+Source: ros-galactic-rslidar-sdk
+Section: misc
+Priority: optional
+Maintainer: robosense <zdxiao@robosense.cn>
+Build-Depends: debhelper (>= 9.0.0), libpcap0.8-dev, libpcl-dev, libyaml-cpp-dev, ros-galactic-ament-cmake, ros-galactic-pcl-conversions, ros-galactic-rclcpp, ros-galactic-rslidar-msg, ros-galactic-sensor-msgs, ros-galactic-std-msgs, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-rslidar-sdk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcap0.8-dev, libpcl-dev, libyaml-cpp-dev, ros-galactic-pcl-conversions, ros-galactic-rclcpp, ros-galactic-rslidar-msg, ros-galactic-sensor-msgs, ros-galactic-std-msgs, ros-galactic-ros-workspace
+Description: The rslidar_sdk package

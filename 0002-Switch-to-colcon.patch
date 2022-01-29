@@ -1,0 +1,25 @@
+From a54618d4a768f39742ea48cf9cd59666d56ccf82 Mon Sep 17 00:00:00 2001
+From: Tim Clephas <tim.clephas@nobleo.nl>
+Date: Sat, 29 Jan 2022 19:42:35 +0100
+Subject: [PATCH 2/2] Switch to colcon
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 55b6393..7afd1ff 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -5,7 +5,7 @@ project(rslidar_sdk)
+ #=======================================
+ # Compile setup (ORIGINAL, CATKIN, COLCON)
+ #=======================================
+-set(COMPILE_METHOD CATKIN)
++set(COMPILE_METHOD COLCON)
+ 
+ #=======================================
+ # Custom Point Type (XYZI, XYZIRT)
+-- 
+2.25.1
+

@@ -5,7 +5,7 @@ project(rslidar_sdk)
 #=======================================
 # Compile setup (ORIGINAL, CATKIN, COLCON)
 #=======================================
-set(COMPILE_METHOD COLCON)
+set(COMPILE_METHOD CATKIN)
 
 #=======================================
 # Custom Point Type (XYZI, XYZIRT)
@@ -31,6 +31,7 @@ if(roscpp_FOUND)
   message(=============================================================)
   message("-- ROS Found, Ros Support is turned On!")
   message(=============================================================)
+  configure_file(${CMAKE_CURRENT_SOURCE_DIR}/package_ros1.xml ${CMAKE_CURRENT_SOURCE_DIR}/package.xml COPYONLY)
   add_definitions(-DROS_FOUND)
   configure_file(${CMAKE_CURRENT_SOURCE_DIR}/package_ros1.xml ${CMAKE_CURRENT_SOURCE_DIR}/package.xml COPYONLY)
 
@@ -50,6 +51,7 @@ if(rclcpp_FOUND AND ${COMPILE_METHOD} STREQUAL "COLCON")
   message(=============================================================)
   message("-- ROS2 Found, Ros2 Support is turned On!")
   message(=============================================================)
+  configure_file(${CMAKE_CURRENT_SOURCE_DIR}/package_ros2.xml ${CMAKE_CURRENT_SOURCE_DIR}/package.xml COPYONLY)
   add_definitions(-DROS2_FOUND)
   configure_file(${CMAKE_CURRENT_SOURCE_DIR}/package_ros2.xml ${CMAKE_CURRENT_SOURCE_DIR}/package.xml COPYONLY)
   set(CMAKE_CXX_STANDARD 14)
@@ -204,6 +206,3 @@ if(rclcpp_FOUND AND ${COMPILE_METHOD} STREQUAL "COLCON")
   )
   ament_package()
 endif(rclcpp_FOUND AND ${COMPILE_METHOD} STREQUAL "COLCON")
-
-# Install package.xml
-install(FILES package.xml DESTINATION share/rslidar_sdk)

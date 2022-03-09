@@ -48,7 +48,7 @@ tracks:
     patches: patches
     release_inc: '3'
     release_repo_url: null
-    release_tag: dev
+    release_tag: v:{version}
     ros_distro: melodic
     vcs_type: git
     vcs_uri: https://github.com/RoboSense-LiDAR/rslidar_sdk.git

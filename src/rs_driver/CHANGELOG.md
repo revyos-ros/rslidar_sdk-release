@@ -1,9 +1,16 @@
-# Changelog
+# Changelog 
 
-## Unreleased
+## v1.3.2 - 2022-03-01
+
+### Fixed
+- Fix version to v1.3.2
+
+## v1.3.1 - 2022-01-27
+
 ### Added
-- Add vlan support
-- Add somip support
+- Support the Ruby 4.0 Lidar
+- Add vlan support with the PCAP file
+- Add SOME/IP support
 - Add split frame when pkt_cnt < last_pkt_cnt in mems
 - Add temperature in mems
 - Add ROCK support

@@ -1,3 +1,26 @@
+## rslidar_sdk (galactic) - 1.3.2-1
+
+The packages in the `rslidar_sdk` repository were released into the `galactic` distro by running `/usr/bin/bloom-release rslidar_sdk --rosdistro galactic --edit` on `Wed, 09 Mar 2022 11:52:16 -0000`
+
+The `rslidar_sdk` package was released.
+
+Version of package(s) in repository `rslidar_sdk`:
+
+- upstream repository: https://github.com/RoboSense-LiDAR/rslidar_sdk.git
+- release repository: https://github.com/nobleo/rslidar_sdk-release.git
+- rosdistro version: `1.3.0-3`
+- old version: `1.3.0-3`
+- new version: `1.3.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## rslidar_sdk (noetic) - 1.3.2-1
 
 The packages in the `rslidar_sdk` repository were released into the `noetic` distro by running `/usr/bin/bloom-release rslidar_sdk --rosdistro noetic --edit` on `Wed, 09 Mar 2022 11:50:20 -0000`

@@ -1,0 +1,22 @@
+From 544805fbbb097a097f949671c9c746eeb8b29109 Mon Sep 17 00:00:00 2001
+From: Tim Clephas <tim.clephas@nobleo.nl>
+Date: Thu, 13 Jan 2022 11:03:44 +0100
+Subject: [PATCH] Correct package name
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 045378c..55b6393 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -206,4 +206,4 @@ if(rclcpp_FOUND AND ${COMPILE_METHOD} STREQUAL "COLCON")
+ endif(rclcpp_FOUND AND ${COMPILE_METHOD} STREQUAL "COLCON")
+ 
+ # Install package.xml
+-install(FILES package.xml DESTINATION share/foo)
++install(FILES package.xml DESTINATION share/rslidar_sdk)
+-- 
+2.25.1
+

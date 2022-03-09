@@ -1,7 +1,7 @@
-From 8546feb3bae14027f17af1393a17f0e9a3eb2b07 Mon Sep 17 00:00:00 2001
+From 7dc2dd19e7fa24bec97cb0d8cefc81c3b4a0edc5 Mon Sep 17 00:00:00 2001
 From: Tim Clephas <tim.clephas@nobleo.nl>
 Date: Thu, 13 Jan 2022 08:46:47 +0100
-Subject: [PATCH] Install package.xml
+Subject: [PATCH 1/2] Install package.xml
 
 ---
  CMakeLists.txt | 3 +++
@@ -17,6 +17,7 @@ index 64f6acc..045378c 100644
  endif(rclcpp_FOUND AND ${COMPILE_METHOD} STREQUAL "COLCON")
 +
 +# Install package.xml
-+install(FILES package.xml DESTINATION share/rslidar_sdk)
---
++install(FILES package.xml DESTINATION share/foo)
+-- 
 2.25.1
+

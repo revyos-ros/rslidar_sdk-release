@@ -1,3 +1,26 @@
+## rslidar_sdk (jazzy) - 1.5.14-4
+
+The packages in the `rslidar_sdk` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy rslidar_sdk` on `Fri, 02 Aug 2024 08:24:27 -0000`
+
+The `rslidar_sdk` package was released.
+
+Version of package(s) in repository `rslidar_sdk`:
+
+- upstream repository: https://github.com/RoboSense-LiDAR/rslidar_sdk.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `1.5.14-3`
+- new version: `1.5.14-4`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.24.0`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## rslidar_sdk (jazzy) - 1.5.14-3
 
 The packages in the `rslidar_sdk` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy rslidar_sdk --override-release-repository-url https://github.com/ros2-gbp/rslidar_sdk-release.git --unsafe` on `Mon, 29 Jul 2024 06:00:40 -0000`

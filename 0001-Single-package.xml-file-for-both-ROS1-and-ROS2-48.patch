@@ -1,4 +1,4 @@
-From 5804c1acf0233b79cb2c393de713d8a978ddf51a Mon Sep 17 00:00:00 2001
+From 3005d497a1b20c976b0359ca159824edb3174c10 Mon Sep 17 00:00:00 2001
 From: Tim Clephas <tim.clephas@nobleo.nl>
 Date: Mon, 29 Jul 2024 07:36:27 +0200
 Subject: [PATCH] Single package.xml file for both ROS1 and ROS2 #48

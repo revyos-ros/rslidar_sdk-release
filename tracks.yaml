@@ -45,14 +45,14 @@ tracks:
     last_release: v1.5.14
     last_version: 1.5.14
     name: upstream
-    patches: patches
+    patches: null
     release_inc: '4'
     release_repo_url: null
     release_tag: v:{version}
     ros_distro: jazzy
     vcs_type: git
     vcs_uri: https://github.com/RoboSense-LiDAR/rslidar_sdk.git
-    version: :{ask}
+    version: :{auto}
   melodic:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri

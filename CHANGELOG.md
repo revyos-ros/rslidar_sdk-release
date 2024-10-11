@@ -1,10 +1,24 @@
 # CHANGELOG 
 
+## v1.5.16 2024-08-27
+### Added
+- Load config path frome ros2 param.
+### Changed
+- Remove the original compilation method.
+### Fixed
+- Use single package.xml file for both ROS1 and ROS2 @Timple.
+- Update msop protocol of RSMX.
+
+## v1.5.15 2024-08-07
+### Added
+- Support RSM3.
+
 ## v1.5.14 2024-07-15
 ### Added
 - Support multiple lidars with different multicast addresses and the same port.
 ### Fixed
 - Fixed the bug that only one lidar was parsed correctly when multiple bp4.0 were used.
+- Fix version number in the package.xml by @Timple.
 
 ## v1.5.13 2024-05-10
 ### Added

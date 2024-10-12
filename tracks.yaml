@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:revyos-ros/rslidar_sdk-release.git
 tracks:
   galactic:
     actions:
